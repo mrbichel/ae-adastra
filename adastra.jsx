@@ -9,8 +9,6 @@ var OS = $.os;
 
 $.evalFile(PATH + "/library/prototype.jsx");
 
-var OS = $.os;
-
 // The order of these includes matter!
 $.evalFile(PATH + "/library/debug.jsx");
 $.evalFile(PATH + "/library/log.jsx");
